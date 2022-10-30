@@ -16,7 +16,7 @@ import java.util.List;
 public class TarefaDAO implements ITarefaDAO {
     private SQLiteDatabase escreve;
     private SQLiteDatabase le;
-
+//jkljkljk
     public TarefaDAO(Context context) {
         DbHelper db = new DbHelper(context);
         escreve= db.getWritableDatabase();
